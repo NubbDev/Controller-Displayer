@@ -1,0 +1,44 @@
+.abxy {
+    position: absolute;
+    width: 153;
+    height: 156;
+    top: 192px;
+    left: 488px;
+}
+
+.button {
+    position: absolute;
+    background: url('/abxy.svg');
+    width: 48px;
+    height: 48px;
+}
+
+.button.pressed {
+    background-position-y: -49px;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.a {
+    background-position: 0 0;
+    top: 108px;
+    left: 55px
+}
+
+.b {
+    background-position: -49px 0;
+    top: 58px;
+    left: 105px
+}
+
+.x {
+    background-position: -98px 0;
+    top: 58px;
+    left: 4px
+}
+
+.y {
+    background-position: 48px 0;
+    top: 7px;
+    left: 55px
+}

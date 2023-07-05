@@ -1,0 +1,22 @@
+.bumpers {
+    position: absolute;
+    top: 129px;
+    left: 107px;
+    width: 536px;
+    height: 61px;
+}
+
+.bumpers .bumper {
+    width: 170px;
+    height: 61px;
+    background: url('/bumper.svg')
+}
+
+.bumpers .bumper.left {
+    float: left;
+}
+
+.bumpers .bumper.right {
+    float: right;
+    transform: rotateY(180deg);
+}

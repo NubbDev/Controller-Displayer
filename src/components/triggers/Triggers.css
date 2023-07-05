@@ -1,0 +1,23 @@
+.triggers {
+    position: absolute;
+    width: 446px;
+    height: 121px;
+    left: 152px;
+}
+
+.triggers .trigger {
+    width: 88px;
+    height: 121px;
+    background: url('/trigger.svg');
+}
+
+.triggers .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.triggers .trigger.right {
+    float: right;
+    background-position: 0 0;
+    transform: rotateY(180deg);
+}

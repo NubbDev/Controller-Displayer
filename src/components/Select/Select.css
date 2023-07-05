@@ -1,0 +1,22 @@
+.select {
+    position: absolute;
+    width: 141px;
+    height: 33px;
+    top: 264px;
+    left: 306px;
+}
+
+.select .back {
+    float: left;
+    width: 33px;
+    height: 33px;
+    background: url('/start-select.svg');
+}
+
+.select .menu {
+    float: right;
+    width: 33px;
+    height: 33px;
+    background: url('/start-select.svg');
+    background-position: 33px 0;
+}

@@ -1,0 +1,43 @@
+.dpads {
+    position: absolute;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
+}
+
+.dpads .dpad {
+    position: absolute;
+    background: url('/dpad.svg');
+}
+
+.dpads .dpad.up {
+    background-position: 34px 0;
+    top: 0;
+    left: 38px;
+    width: 34px;
+    height: 56px;
+}
+
+.dpads .dpad.down {
+    bottom: 0;
+    left: 38px;
+    width: 34px;
+    height: 56px;
+}
+
+.dpads .dpad.left {
+    background-position: 0 -93px;
+    top: 38px;
+    left: 0;
+    width: 55px;
+    height: 35px;
+}
+
+.dpads .dpad.right {
+    background-position: 0 -57px;
+    top: 38px;
+    right: 0;
+    width: 55px;
+    height: 35px;
+}
